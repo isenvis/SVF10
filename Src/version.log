@@ -1,9 +1,0 @@
-Version 0.100 - hist_ep func is added to svf10_util.c @ 2018.3.7 
-Version 0.101 - hist_ep func is modified. 
-                히스토그램 확장할 때 목표 Level을 지정할 수 있도록 인자 2개 추가되었음.
-Version 0.102 - hist_ep func is modified. @2018.3.16
-                히스토그램 확장시 Option 추가 FLAT / LINEAR
-                decision_option 추가 (0: equation / 1: discrete )
- Version 0.103 - SVF10_Sreg_Set_For_Memread func is added @ 2018.3.17
-                Memory Read 함수앞에서 SVF_SCK_UT 을 00으로 Reset하는 함수임.
-                
