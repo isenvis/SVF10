@@ -277,8 +277,9 @@ int main(void)
       while(!(HAL_OK == (HAL_UART_Receive_IT(&huart4, uart_receive_frame, 21))));
 //      HAL_UART_Receive_IT(&huart4, uart_receive_frame, 21);
     }
+    
     HAL_Delay(5); 
-
+    HAL_UART_Receive_IT(&huart4, uart_receive_frame, 21);
   }
 }
 

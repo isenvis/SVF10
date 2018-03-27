@@ -12,5 +12,7 @@ Version 0.105 - SVF_SENSING_MODE / SVF_IMAGE_FILTER are added @ 2018.3.20
                 Release Version을 준비하기 위해 Parameter 추가 및 Window Program 과 통신 연결               
 Version 0.106 - noise_filter  func is modified @ 2018.3.20
                 decision_option을 SVF_SENSING_MODE에 따라 변동하도록 변경함.
+Version 0.107 - HAL_UART_Receive_IT Call is changed.
+                실행중 먹통이 되는 현상 때문에 while문 외부에 함수 CALL 추가함.
                 
       
