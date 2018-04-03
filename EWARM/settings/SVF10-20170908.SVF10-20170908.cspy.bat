@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "C:\My Project\SVF10\EWARM\settings\SVF10-20170908.SVF10-20170908.general.xcl" --backend -f "C:\My Project\SVF10\EWARM\settings\SVF10-20170908.SVF10-20170908.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "D:\MyProject\SVF10\EWARM\settings\SVF10-20170908.SVF10-20170908.general.xcl" --backend -f "D:\MyProject\SVF10\EWARM\settings\SVF10-20170908.SVF10-20170908.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "C:\My Project\SVF10\EWARM\settings\SVF10-20170908.SVF10-20170908.general.xcl" "--debug_file=%~1" --backend -f "C:\My Project\SVF10\EWARM\settings\SVF10-20170908.SVF10-20170908.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "D:\MyProject\SVF10\EWARM\settings\SVF10-20170908.SVF10-20170908.general.xcl" "--debug_file=%~1" --backend -f "D:\MyProject\SVF10\EWARM\settings\SVF10-20170908.SVF10-20170908.driver.xcl" 
 
 @echo off 
 :end

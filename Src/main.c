@@ -219,7 +219,7 @@ int main(void)
     else if (coverage < 0.70)
     {
       N_Capture_Frame = 0;
-      HAL_Delay(1000);
+      HAL_Delay(500);
     }
     else
     {
